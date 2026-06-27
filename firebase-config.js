@@ -1,4 +1,4 @@
-firebase-config.js
+window.AMONG_ONLINE_FIREBASE_CONFIG = {
 window.AMONG_ONLINE_FIREBASE_CONFIG = {
 apiKey: "AIzaSyDCpE5ay_RFCSttdXWEuPr3SCodIAYA5TY",
 authDomain: "irl-among-us-game.firebaseapp.com",
