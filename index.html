@@ -529,7 +529,18 @@ function setPool(mode){for(const cat of Object.keys(state.selected)){let roles=R
 <div id="phonePanelV3" class="online-layer phone-action-panel hidden"></div>
 <div id="phoneRepairV3" class="online-layer phone-repair hidden"></div>
 <div id="hostBannerV3" class="online-layer online-host-banner hidden"></div>
-<script src="firebase-config.js"></script>
+<script>
+window.AMONG_ONLINE_FIREBASE_CONFIG = {
+  apiKey: "AIzaSyDCpE5ay_RFCSttdXWEuPr3SCodIAYA5TY",
+  authDomain: "irl-among-us-game.firebaseapp.com",
+  databaseURL: "https://irl-among-us-game-default-rtdb.firebaseio.com",
+  projectId: "irl-among-us-game",
+  storageBucket: "irl-among-us-game.firebasestorage.app",
+  messagingSenderId: "548143640673",
+  appId: "1:548143640673:web:dfcae0408b5ff6070bba20"
+};
+</script>
+
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
