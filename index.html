@@ -533,7 +533,17 @@ function setPool(mode){for(const cat of Object.keys(state.selected)){let roles=R
 /* v4 reliability patch */
 #modal.host-repair-fullscreen{z-index:1300;padding:0;background:#020711ee}.modal.host-repair-fullscreen .panel{width:min(840px,100%);min-height:100vh;border-radius:0;display:flex;flex-direction:column;justify-content:center}.repair-no-timer{margin:12px auto;border:1px solid #ffd36b88;background:#ffd36b17;color:#fff0bd;border-radius:999px;padding:8px 13px;font-weight:950;letter-spacing:.09em}.repair-done{border-color:#7df0ad!important;background:linear-gradient(145deg,#103b32,#081d1b)!important}.repair-done h1{color:#8affbd}.phone-target.selected{border-color:#8cefff;box-shadow:0 0 0 2px #6de7ff42,0 0 20px #6de7ff2b}
 </style>
-<script src="firebase-config.js"></script>
+<script>
+window.AMONG_ONLINE_FIREBASE_CONFIG = {
+  apiKey: "AIzaSyDCpE5ay_RFCSttdXWEuPr3SCodIAYA5TY",
+  authDomain: "irl-among-us-game.firebaseapp.com",
+  databaseURL: "https://irl-among-us-game-default-rtdb.firebaseio.com",
+  projectId: "irl-among-us-game",
+  storageBucket: "irl-among-us-game.firebasestorage.app",
+  messagingSenderId: "548143640673",
+  appId: "1:548143640673:web:dfcae0408b5ff6070bba20"
+};
+</script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
